@@ -28,7 +28,7 @@ public class Main extends JFrame {
         txtPrecio = new JTextField();
         txtStock = new JTextField();
         btnRegistrar = new JButton("Registrar"); // Botón para guardar el producto.
-        btnCerrar = new JButton ("Cerrar"); // Creo el botón que se va mostrar como "Cerrar" FFFF
+        btnCerrar = new JButton ("Cerrar"); // Creo el botón que se va mostrar como "Cerrar" FFFFF
         txtResultado = new JTextArea(); // Área para mostrar resultados.
         txtResultado.setEditable(false); // Evita que el usuario modifique el resultado manualmente.
 
@@ -48,7 +48,7 @@ public class Main extends JFrame {
         add(new JLabel ("")); //Agrego un espacio vacio para completar el layout. FFFFF
 
         setUndecorated(true); //Saco los botones de cerrar/minimizar y se va el título. FFFFF
-        getContentPane().setBackground(Color.RED); // Agrego color al fondo de la ventana. FFFFF
+        getContentPane().setBackground(Color.LIGHT_GRAY); // Agrego color al fondo de la ventana. FFFFF
 
         // Cuando se presiona el botón, ejecuta el método registrarProducto.
         btnRegistrar.addActionListener(e -> registrarProducto());
