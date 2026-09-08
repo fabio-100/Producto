@@ -50,8 +50,7 @@ public class Main extends JFrame {
         add(btnCerrar); // Agrego el botón al diseño del layout. FFFFF
         add(new JLabel ("")); //Agrego un espacio vacio para completar el layout. FFFFF
 
-        setUndecorated(true); //Saco los botones de cerrar/minimizar y se va el título. FFFFF
-        getContentPane().setBackground(Color.LIGHT_GRAY); // Agrego color al fondo de la ventana. FFFFF
+        getContentPane().setBackground(Color.MAGENTA); // Agrego color al fondo de la ventana. FFFFF
 
         // Cuando se presiona el botón, ejecuta el método registrarProducto.
         btnRegistrar.addActionListener(e -> registrarProducto());
