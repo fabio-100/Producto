@@ -22,6 +22,7 @@ public class Main extends JFrame {
         JLabel lblNombre = new JLabel("Nombre:");
         JLabel lblPrecio = new JLabel("Precio:");
         JLabel lblStock = new JLabel("Stock:");
+        lblNombre.setHorizontalAlignment(JLabel.CENTER);
 
         // Se crean los campos donde el usuario ingresa nombre, precio y stock.
         txtNombre = new JTextField();
